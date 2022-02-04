@@ -1,0 +1,157 @@
+.session-sarlavha {
+  margin: 0 auto;
+  width: 20%;
+  background-image: url("../images/Sessions.png");
+  background-position: center;
+  background-size: cover;
+  padding: 2.5rem;
+  margin-bottom: 10rem;
+}
+.session-saelavham {
+  margin-top: 1rem;
+  /* margin-top: 0.3rem; */
+  font-size: 2.4rem;
+  text-align: center;
+}
+.session-section {
+  background-color: #fff;
+}
+.aa03 {
+  /* width: 40rem; */
+  width: 30rem;
+  margin-left: -5rem;
+}
+.section-card {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.section-card-name {
+  display: flex;
+  column-gap: 20rem;
+  background-color: #f8f8f8;
+  width: 95%;
+  padding: 0.5rem;
+  border-left: 4px solid #000;
+}
+.section-cards-name {
+  font-size: 2rem;
+}
+.section-card-name2 {
+  display: flex;
+  font-size: 1.4rem;
+  column-gap: 8rem;
+  align-items: center;
+}
+/* }
+.section-card-img {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  column-gap: 7rem;
+  padding: 0.5rem;
+  /* display: flex;
+  column-gap: 13.5rem; */
+.section-card-img {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  column-gap: 15rem;
+  padding: 0.5rem;
+}
+.images-card-about {
+  font-size: 1.4rem;
+  width: 90%;
+  line-height: 1.8;
+}
+
+.azizjon {
+  display: flex;
+  column-gap: 1rem;
+}
+.azizjon img {
+  width: 60%;
+}
+.section-cards {
+  margin-left: 10rem;
+  border-left: 2px solid #e8e8e8;
+}
+.aa12 {
+  background-image: url("../images/Group\ 853.png");
+}
+.master-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  /* grid-template-rows: 1.5fr 0.5fr 0.5fr; */
+}
+
+.master-section {
+  margin-top: 5rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px #f0f0f0;
+}
+.master-card {
+  margin-left: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+.master-card-name {
+  font-size: 1.8rem;
+}
+.master-card-nm {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.master-card img:hover {
+  transform: scale(1.1);
+}
+.faq-section {
+  margin-top: 5rem;
+}
+
+.aa11 {
+  background-image: url("../images/FAQ.png");
+}
+/* .accardion1 {
+  width: 85%;
+  margin-left: 10rem;
+} */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 4rem;
+  border-radius: 1rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  font-size: 1.6rem;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accardion {
+  font-size: 1.6rem;
+}
+.aa15 {
+  display: flex;
+  justify-content: space-between;
+}
