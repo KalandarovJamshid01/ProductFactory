@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   padding: 0 10%;
   margin: 0 auto;
@@ -17,7 +22,7 @@
   position: absolute;
   left: 50%;
 
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -35%);
 }
 .course-litle {
   font-size: 3.6rem;
@@ -63,7 +68,7 @@
   justify-content: space-around;
   align-items: center;
   border-radius: 1rem;
-  gap: 1.5rem;
+  gap: 2.4rem;
 }
 .one-left {
   display: flex;
@@ -122,4 +127,75 @@
 }
 del {
   color: wheat;
+}
+.request {
+  background-color: #000;
+  padding: 2rem 0rem 2rem 0rem;
+}
+.req-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  gap: 4rem;
+}
+.req-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+.request-txt {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: white;
+}
+.request-ctxt {
+  font-size: 1.8rem;
+  color: white;
+  font-weight: 500;
+}
+.req-right input {
+  background-color: #555;
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 50%;
+}
+.req-right input::placeholder {
+  font-size: 1.8rem;
+  color: white;
+}
+.btm-req {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: flex-start;
+  align-items: center;
+}
+.btm-req i {
+  font-size: 1.8rem;
+  color: rgb(0, 128, 53);
+}
+.request-2 {
+  font-size: 1.6rem;
+  color: white;
+}
+.big-img {
+  width: 350px;
+  position: absolute;
+  left: 30%;
+  top: 0;
+}
+.litle-img {
+  width: 150px;
+  position: absolute;
+  left: 60%;
+  top: 60%;
+  transform: translate(-50%, -35%);
+}
+.req-image {
+  position: relative;
+  display: flex;
+  width: 50%;
 }
