@@ -1,0 +1,293 @@
+@media (max-width: 1500px) {
+  .about_us_two {
+    width: 20rem;
+    position: absolute;
+    transform: translate(-8rem, 4rem);
+    /* margin-left: 6rem; */
+  }
+  .about_us_three {
+    width: 3rem;
+
+    position: absolute;
+    transform: translate(13rem, 4rem);
+  }
+  .Hero_img img {
+    width: 80%;
+  }
+  .Hero_content {
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+  /* .azizjon img {
+    width: 100%;
+  } */
+  .master-card {
+    gap: 4rem;
+  }
+  .section-card-name {
+    column-gap: 15rem;
+  }
+  .session-sarlavha {
+    width: 30%;
+  }
+}
+@media (max-width: 1210px) {
+  html {
+    font-size: 56.25%;
+  }
+  .header a,
+  .Start_Register {
+    font-size: 1.4rem;
+  }
+  .about_us_one {
+    width: 63rem;
+  }
+  .text-course,
+  .center-text,
+  .request-ctxt,
+  .request-2,
+  .pro-txt,
+  .Hero_content {
+    font-size: 1.4rem;
+  }
+  .title {
+    font-size: 2.4rem;
+  }
+  .desig {
+    font-size: 2.8rem;
+  }
+  .section-card-name2,
+  .images-card-about {
+    font-size: 1.2rem;
+  }
+  .Course_Experience_menu p {
+    font-size: 1.6rem;
+  }
+  h1 {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about_us_one {
+    width: 46rem;
+  }
+  .section-card-name2 {
+    column-gap: 2rem;
+  }
+  .section-card-name {
+    column-gap: 8rem;
+  }
+  .course-big {
+    font-size: 6rem;
+  }
+  .big-number,
+  .tomom {
+    font-size: 3rem;
+  }
+  .right-text {
+    font-size: 1.4rem;
+  }
+  .text-course {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .azizjon img {
+    width: 103%;
+  }
+  .header a {
+    display: none;
+  }
+  .ver {
+    height: 23rem;
+  }
+  .Product_Factory {
+    width: 24rem;
+  }
+  .Hero_img img {
+    width: 88%;
+  }
+}
+
+@media (max-width: 800px) {
+  .big-img {
+    display: none;
+  }
+  .about_us_one {
+    width: 46rem;
+  }
+  .section-card-name2 {
+    column-gap: 2rem;
+  }
+  .section-card-name {
+    column-gap: 8rem;
+  }
+  .course-big {
+    font-size: 6rem;
+  }
+  .big-number,
+  .tomom {
+    font-size: 3rem;
+  }
+  .right-text {
+    font-size: 1.4rem;
+  }
+  .text-course {
+    font-size: 1.2rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .azizjon img {
+    width: 103%;
+  }
+  .header a {
+    display: none;
+  }
+  .ver {
+    height: 23rem;
+  }
+  .Product_Factory {
+    width: 24rem;
+  }
+  .Hero_img img {
+    width: 88%;
+  }
+}
+@media (max-width: 805px) {
+  html {
+    font-size: 50%;
+  }
+  .Hero_slider {
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .Hero_img img {
+    width: 70%;
+  }
+  .about_us_one {
+    display: none;
+  }
+  .about_us_two {
+    transform: translate(13rem, -8rem);
+  }
+  .about_us_three {
+    width: 3rem;
+    position: absolute;
+    transform: translate(48rem, 2rem);
+  }
+  .Course_Experience_content2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .azizjon img {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about {
+    font-size: 1rem;
+  }
+  .section-card-name {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .section-card-img {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  .images-card-about {
+    text-align: center;
+  }
+  .master-card {
+    margin: 0 auto;
+  }
+  .flex-course {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  .right-course {
+    row-gap: 2rem;
+  }
+  .container1 {
+    padding: 5rem 10%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+  .about_us_three {
+    display: none;
+  }
+  .Hero_slider {
+    padding: 43rem 2rem;
+  }
+  .Hero_slider img {
+    margin-left: 4rem;
+  }
+  .container {
+    width: 100%;
+  }
+  .container1 {
+    padding: 5rem 10%;
+  }
+  .container2 {
+    margin: 10rem auto;
+  }
+  .about_us_page_content {
+    text-align: center;
+    margin: 0 10rem;
+  }
+  .section-cards {
+    margin: 0;
+  }
+  .master-card {
+    align-items: center;
+    justify-content: center;
+  }
+  .req-flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .litle-img {
+    display: none;
+  }
+  .flex-pro {
+    flex-direction: column;
+    row-gap: 3rem;
+    align-items: center;
+  }
+  .about_us_page_content {
+    text-align: center;
+    transform: translate(-5rem, 0);
+    /* margin-left: 0rem; */
+  }
+  .about_us_two {
+    transform: translate(10rem, -8rem);
+  }
+  .session-sarlavha {
+    width: 40%;
+  }
+  .p {
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  .course-big {
+    font-size: 4rem;
+  }
+  .start-date {
+    font-size: 3rem;
+  }
+}
