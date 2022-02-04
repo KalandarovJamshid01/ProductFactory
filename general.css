@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  background-color: #F0F0F0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.empty-big {
+  height: 4.2rem;
+  background: none;
+}
+.empty-litle {
+  height: 2.4rem;
+  background: none;
+}
