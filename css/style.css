@@ -115,6 +115,7 @@
   border-radius: 0.8rem;
   padding: 1rem 5rem;
   border: none;
+  font-weight: 700;
 }
 .center-text {
   font-size: 1.6rem;
@@ -229,14 +230,15 @@ del {
   font-weight: 700;
 }
 .pro-txt {
-  font-size: 1.8rem;
-  font-weight: 500;
+  font-size: 1.6rem;
+  font-weight: 400;
   color: #333;
+  line-height: 1.8;
 }
 .pro-check {
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 2.4rem;
 }
 .pro-text {
   font-size: 1.4rem;
@@ -279,4 +281,56 @@ del {
 }
 .pro-left {
   width: 40%;
+}
+.foot-section {
+  padding: 4.2rem 0rem;
+  background-color: #f0f0f0;
+}
+.sched-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.dashed {
+  height: 0.01rem;
+  border: 0.05rem dashed #333;
+}
+.sched-start {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #111;
+}
+.sched-date {
+  display: flex;
+  justify-content: space-between;
+}
+.start-date {
+  width: 40%;
+  border-radius: 1rem;
+  box-shadow: 0 0 1rem #555;
+}
+.start-date p {
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-align: center;
+}
+.onbir {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.sched-btm {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #111;
+}
+.sched-btm span {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #111;
+  color: white;
+  font-size: 3.2rem;
+}
+.container img {
+  width: 100%;
 }
