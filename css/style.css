@@ -333,4 +333,351 @@ del {
 }
 .container img {
   width: 100%;
+  /* yangi section */
+  /* * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f0f0;
+} */
+}
+.container1 {
+  background-color: #111111;
+  padding: 0 15rem;
+}
+/* our header started */
+.header img {
+  width: 12rem;
+}
+.header {
+  padding: 3rem 0.5rem;
+  background-color: #111111;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  text-align: center;
+  color: white;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.5s;
+  cursor: alias;
+}
+.header a:hover {
+  transform: scale(1.1);
+  color: #f79470;
+}
+.header a:active {
+  margin-top: -1rem;
+}
+.Register {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  background-color: #707070;
+}
+.Register:hover {
+  background-color: #9b9b9b;
+}
+/* our header finished */
+/* our Hero_slider started */
+.Hero_slider {
+  height: 70rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform: translate(0, 0);
+  box-shadow: 0px 0px 40px 20px rgba(128, 128, 128, 0.267);
+}
+h1 {
+  font-size: 5rem;
+}
+.Product_Factory {
+  width: 35rem;
+  padding: 2rem 0;
+  background-size: cover;
+}
+.Hero_content {
+  font-size: 1.8rem;
+  line-height: 5.5rem;
+}
+.Start_Register {
+  padding: 1.5rem 12rem;
+  margin-top: 2rem;
+  font-size: 2.4rem;
+  border: 0;
+  background-color: #f46632;
+  border-radius: 2rem;
+  -webkit-transition-duration: 0.3s; /* Safari */
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.Start_Register:hover {
+  background-color: #f79470;
+  color: white;
+}
+.Start_Register:active {
+  transform: scale(1.05);
+  background-color: #f46632;
+}
+/* our Hero_slider finished */
+/* our about us started */
+.container2 {
+  /* background-color: #fafafa; */
+  /* background-color: rgba(128, 128, 128, 0.63); */
+  width: 100%;
+  margin: 20rem auto;
+
+  /* height: 130rem; */
+}
+.about_us_page {
+  background-color: white;
+  border-radius: 2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  /* left: 17.6rem; */
+}
+
+.about_us_one {
+  width: 67rem;
+  margin-left: 5rem;
+  margin-top: -5rem;
+}
+.about_us_two {
+  width: 30rem;
+  margin-left: 6rem;
+}
+.about_us_three {
+  width: 2rem;
+  margin-left: 8rem;
+}
+.about_us_three:hover {
+  cursor: pointer;
+}
+.about_us_three:active {
+  transform: scale(1.1);
+}
+.about_us_page_content {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+/* our about_us page finished */
+/* our Course_Experience started */
+.Course_Experience {
+  width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding: 2rem;
+  /* margin-top: -40rem; */
+}
+.Course_Experience img {
+  width: 40rem;
+  display: block;
+  margin: 0 auto;
+}
+.Course_Experience_menu {
+  border: 2px solid black;
+  width: 70%;
+  height: 5rem;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  font-size: 2.4rem;
+  display: flex;
+  align-items: center;
+}
+.Course_Experience_menu p {
+  width: 33.35%;
+  text-align: center;
+  padding: 1.3rem 0;
+  border-radius: 2rem;
+}
+.border_content {
+  border-left: 3px solid black;
+  padding: 1.3rem 0;
+  border-right: 3px solid black;
+}
+
+.Course_Experience_menu p:hover {
+  background-color: black;
+  color: white;
+}
+.Experience_content {
+  width: 50%;
+}
+.Course_Experience_content2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* yangi section */
+.session-sarlavha {
+  margin: 0 auto;
+  width: 20%;
+  background-image: url("../images/Sessions.png");
+  background-position: center;
+  background-size: cover;
+  padding: 2.5rem;
+  margin-bottom: 10rem;
+}
+.session-saelavham {
+  margin-top: 1rem;
+  /* margin-top: 0.3rem; */
+  font-size: 2.4rem;
+  text-align: center;
+}
+.session-section {
+  margin-top: 20rem;
+  background-color: #fff;
+}
+.aa03 {
+  /* width: 40rem; */
+  width: 30rem;
+  margin-left: -5rem;
+}
+.section-card {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+
+.section-card-name {
+  display: flex;
+  column-gap: 20rem;
+  background-color: #f8f8f8;
+  width: 95%;
+  padding: 0.5rem;
+  border-left: 4px solid #000;
+}
+.section-cards-name {
+  font-size: 2rem;
+}
+.section-card-name2 {
+  display: flex;
+  font-size: 1.4rem;
+  column-gap: 8rem;
+  align-items: center;
+}
+/* }
+.section-card-img {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  column-gap: 7rem;
+  padding: 0.5rem;
+  /* display: flex;
+  column-gap: 13.5rem; */
+.section-card-img {
+  display: grid;
+  grid-template-columns: 0.7fr 3fr;
+  column-gap: 15rem;
+  padding: 0.5rem;
+}
+.images-card-about {
+  font-size: 1.4rem;
+  width: 90%;
+  line-height: 1.8;
+}
+
+.azizjon {
+  display: flex;
+  column-gap: 1rem;
+}
+.azizjon img {
+  width: 60%;
+}
+.section-cards {
+  margin-left: 10rem;
+  border-left: 2px solid #e8e8e8;
+}
+.aa12 {
+  background-image: url("../images/Group\ 853.png");
+}
+.master-cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  /* grid-template-rows: 1.5fr 0.5fr 0.5fr; */
+}
+
+.master-section {
+  margin-top: 5rem;
+  background-color: #fff;
+  box-shadow: 0 0 5px #f0f0f0;
+}
+.master-card {
+  margin-left: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rem;
+  padding: 2rem;
+  overflow: hidden;
+}
+.master-card-name {
+  font-size: 1.8rem;
+}
+.master-card-nm {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.master-card img:hover {
+  transform: scale(1.1);
+}
+.faq-section {
+  margin-top: 5rem;
+}
+
+.aa11 {
+  background-image: url("../images/FAQ.png");
+}
+/* .accardion1 {
+  width: 85%;
+  margin-left: 10rem;
+} */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin-top: 4rem;
+  border-radius: 1rem;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  font-size: 1.6rem;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.accardion {
+  font-size: 1.6rem;
+}
+.aa15 {
+  display: flex;
+  justify-content: space-between;
 }
