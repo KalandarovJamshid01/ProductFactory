@@ -518,6 +518,7 @@ h1 {
 }
 .Course_Experience_content2 {
   display: flex;
+  row-gap: 4rem;
   align-items: center;
   justify-content: space-around;
 }
@@ -680,4 +681,10 @@ h1 {
 .aa15 {
   display: flex;
   justify-content: space-between;
+}
+.aziz {
+  line-height: 1.8;
+  width: 70%;
+  font-size: 1.6rem;
+  margin: 0 auto;
 }

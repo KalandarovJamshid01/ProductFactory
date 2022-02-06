@@ -165,6 +165,8 @@
     row-gap: 2rem;
     justify-content: center;
     align-items: center;
+    padding: 40rem 0;
+    text-align: center;
   }
   .Hero_img img {
     width: 70%;
@@ -233,7 +235,7 @@
     padding: 43rem 2rem;
   }
   .Hero_slider img {
-    margin-left: 4rem;
+    margin-left: 6rem;
   }
   .container {
     width: 100%;
@@ -273,10 +275,12 @@
     /* margin-left: 0rem; */
   }
   .about_us_two {
-    transform: translate(10rem, -8rem);
+    /* transform: translate(18rem, -8rem); */
+    text-align: center;
+    margin-left: 0;
   }
   .session-sarlavha {
-    width: 40%;
+    width: 60%;
   }
   .p {
     margin: 0 auto;
@@ -289,5 +293,67 @@
   }
   .start-date {
     font-size: 3rem;
+  }
+  .about_us_page {
+    width: 100%;
+  }
+  .Hero_img {
+    text-align: center;
+  }
+  .Hero_img img {
+    margin-left: 0;
+    text-align: center;
+  }
+  .Hero_slider img {
+    margin-left: 0;
+  }
+  .Hero_slider {
+    justify-content: center;
+    align-items: center;
+  }
+  .Product_Factory {
+    margin-left: -10rem;
+    text-align: center;
+  }
+  .Course_Experience {
+    width: 100%;
+  }
+  .Course_Experience img {
+    width: 30rem;
+  }
+  .Course_Experience_menu {
+    border-radius: 0;
+  }
+  .Course_Experience_menu p {
+    width: 33.35%;
+    text-align: center;
+    padding: 0 1rem;
+    font-size: 1.4rem;
+    border-radius: 0;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+  .pro-left {
+    display: none;
+  }
+  .sched-btm span {
+    display: none;
+  }
+  .sched-date {
+    display: none;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20rem;
+  }
+  .azizbek important {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aziz {
+    text-align: center;
+    margin: 0 26rem;
+  }
+  .proj-right {
+    width: 80%;
   }
 }
