@@ -29,6 +29,7 @@
         <a href="#About_us">About us</a>
         <a class="Register" href="#Register">Register</a>
       </div>
+
       <!-- our header finished -->
       <!-- our Hero_slider started -->
       <div class="Hero_slider">
@@ -479,7 +480,7 @@
       </div>
     </div>
 
-    <div class="empty-litle"></div>
+    <div class="empty-big"></div>
     <div class="section-course container" id="Classes">
       <p class="course-big">Course fee</p>
       <p class="course-litle">Course</p>
@@ -673,6 +674,15 @@
             panel.style.display = "block";
           }
         });
+      }
+
+      function och() {
+        var open = document.getElementById("openMenuBtn");
+        open.classList.add("openMenu");
+      }
+      function yop() {
+        var close = document.getElementById("openMenuBtn");
+        close.classList.remove("openMenu");
       }
     </script>
   </body>
