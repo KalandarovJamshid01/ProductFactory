@@ -13,9 +13,10 @@
   border-radius: 1.5rem;
   box-shadow: 0 0 1rem #333;
   position: relative;
+  margin-top: 8 rem;
 }
 .course-big {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 900;
   color: #000;
   filter: opacity(0.1);
@@ -25,7 +26,7 @@
   transform: translate(-50%, -35%);
 }
 .course-litle {
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   color: #000;
   text-align: center;
   font-weight: 900;
@@ -210,7 +211,7 @@ del {
   width: 40%;
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+  gap: 4.4rem;
 }
 .circle {
   display: flex;
@@ -238,7 +239,7 @@ del {
 .pro-check {
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
+  gap: 3rem;
 }
 .pro-text {
   font-size: 1.4rem;
@@ -260,14 +261,14 @@ del {
   background-color: #aaa;
   border-radius: 2rem;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
 }
 .ver {
   background-color: #f0f0f0;
   border-radius: 2rem;
   width: 50%;
   margin: 0 auto;
-  height: 30rem;
+  height: 34rem;
   transform: translate(0, -50%);
   box-shadow: 0 0 1.5rem #777;
 }
@@ -345,7 +346,7 @@ body {
 }
 .container1 {
   background-color: #111111;
-  padding: 0 15rem;
+  padding: 3rem 15rem;
 }
 /* our header started */
 .header img {
@@ -364,7 +365,7 @@ body {
   font-size: 1.8rem;
   text-align: center;
   color: white;
-  -webkit-transition-duration: 0.3s; /* Safari */
+  -webkit-transition-duration: 0.3s;
   transition-duration: 0.5s;
   cursor: alias;
 }
@@ -375,7 +376,7 @@ body {
 .header a:active {
   margin-top: -1rem;
 }
-.Register {
+*/ .Register {
   padding: 1rem 2rem;
   border-radius: 2rem;
   background-color: #707070;
@@ -390,7 +391,7 @@ body {
   background-color: white;
   margin: 0 auto;
   border-radius: 2rem;
-  padding: 2rem;
+  padding: 5rem 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -518,6 +519,7 @@ h1 {
 }
 .Course_Experience_content2 {
   display: flex;
+  row-gap: 4rem;
   align-items: center;
   justify-content: space-around;
 }
@@ -680,4 +682,76 @@ h1 {
 .aa15 {
   display: flex;
   justify-content: space-between;
+}
+.aziz {
+  line-height: 1.8;
+  width: 70%;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+************************
+/* HEADER */
+/**************************/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+  position: relative;
+}
+
+.logo {
+  height: 2.2rem;
+}
+
+/**************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #cf711f;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #e67e22;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+  background-color: #cf711f;
+}
+
+/* Mobile Navigation */
+.menuBtn,
+.closeBtn important {
+  display: none;
+  font-size: 2.4rem;
+  color: #333;
 }
