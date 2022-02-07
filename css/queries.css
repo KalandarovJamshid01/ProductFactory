@@ -291,3 +291,11 @@
     font-size: 3rem;
   }
 }
+@media (max-width: 100rem) {
+  .container1 {
+    width: 130rem;
+    margin: 0rem;
+    margin: 0 auto;
+    margin-left: 5rem;
+  }
+}
